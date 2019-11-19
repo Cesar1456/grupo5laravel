@@ -1,0 +1,51 @@
+
+
+h1.perfil{
+    color: white;
+    margin-left: 10%;
+    margin-top: 4vh;
+    font-family: 'Comfortaa', cursive;
+    font-size: 2em;
+}
+
+
+.lineahorizontal{
+    border-width: 1px;
+    border-color: #FFF;
+    width: 80%;
+}
+.central{
+    overflow: hidden;
+    width: 100%;
+    margin-top: 10vh;
+    height: 45vh;
+    
+}
+
+.cuerpoperfil img{
+    float: left;
+    border-radius: 5%;
+    width: 150px;
+    height: 150px;
+    margin-top: 8vh;
+    margin-left: 20%;
+}
+
+.textoperfil{
+    color: #FFF;
+    position: relative;
+    float: left;
+    margin-left: 8%;
+    margin-top: 10vh;
+    font-family: 'Comfortaa', cursive;
+
+}
+
+
+
+
+
+
+
+
+

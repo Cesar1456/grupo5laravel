@@ -19,27 +19,19 @@ Route::get('/', function () {
 
 Route::get('/home', 'HomeController@index');
 
-Route::get('/productos', function () {
-    return view('productos');
-});
+Route::get('/productos', 'ProductosController@listado');
 
-Route::get('/detalle', function () {
-    return view('detalle');
-});
+Route::get('/detalle', 'DetalleController@mostrar');
 
-Route::get('/registro', function () {
-    return view('registro');
-});
+Route::get('/registro', 'RegistroController@mostrar');
 
-Route::get('/login', function () {
-    return view('login');
-});
+Route::get('/ingreso', 'IngresoController@login');
 
-Route::get('/contacto', function () {
-    return view('contacto');
-});
+Route::get('/contacto', 'ContactoController@listado');
 
 Route::get('/faq', 'faqController@listado');
+
+Route::get('/perfil', 'PerfilController@datos');
 
 Route::get('/carrito', function () {
     return view('carrito');
