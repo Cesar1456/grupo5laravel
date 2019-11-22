@@ -9,9 +9,14 @@ div.container-fluid {
     /* height: 120vh; */
 
 }
+.contenedor{
+    margin-bottom: 5.5vh;
+
+}
 
 .ingreso{
     width: 100%;
+    
 }
 .ingreso h1{
 
@@ -54,7 +59,7 @@ button.btn-primary{
     position: relative;
     margin-left: 40%;
     width: 20%;
-    margin-top: 6vh;
+    margin-top: 3vh;
     border-radius: 20px;
     font-family: 'Comfortaa', cursive;
     font-size: 1.4em;

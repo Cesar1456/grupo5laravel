@@ -1,5 +1,7 @@
 
-
+.contenedor{
+    margin-bottom: 6.2vh;
+}
 h1.perfil{
     color: white;
     margin-left: 10%;
@@ -17,7 +19,7 @@ h1.perfil{
 .central{
     overflow: hidden;
     width: 100%;
-    margin-top: 10vh;
+    margin-top: 8vh;
     height: 45vh;
     
 }

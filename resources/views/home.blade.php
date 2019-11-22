@@ -1,5 +1,11 @@
 @extends("plantilla")
 @section("principal")
+<head>
+
+<link rel="stylesheet" href="css/styleHome.css">
+<link href="https://fonts.googleapis.com/css?family=Comfortaa&display=swap" rel="stylesheet">
+
+</head>
 
 <div class="animation">
     <div id="particles-js">
