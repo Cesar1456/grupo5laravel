@@ -4,7 +4,7 @@
 } */
 .registro{
     width: 80%;
-    margin-top: 1vh;
+    margin-top: 0vh;
     margin-bottom: 8vh;
 
 
@@ -17,6 +17,7 @@
 .registro hr{
     border-width: 1px;
     border-color: #FFF;
+    margin-top: 1vh;
 }
 
 
@@ -48,7 +49,7 @@ button.btn {
 
 
 .titulo{
-    margin-top: 1vh;
+    margin-top: 0vh;
 }
 
 

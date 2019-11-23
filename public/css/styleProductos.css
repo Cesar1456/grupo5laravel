@@ -208,9 +208,9 @@ a.more{
 ul.nav-pills{
     display: none;
 }
-nav#principal ul{
+/* nav#principal ul{
     display: block;
-}
+} */
 
 section{
   overflow:hidden;

@@ -32,7 +32,8 @@
  div.enlace{
      position: relative;
      margin-left: 39.5%;
-     margin-top: 8vh;
+     margin-top: 6vh;
+     margin-bottom: 3vh;
      width: 20%;
      height: 6vh;
      background-color: rgb(248, 147, 31);
@@ -118,11 +119,7 @@
 
  
  @media (max-width:991px) and (min-width:768px){
-     nav#principal img{
-         width: 3%;
-         top: 2.5vh;
-
-     }
+     
      div.animation #particles-js{
          display: none;
      }
