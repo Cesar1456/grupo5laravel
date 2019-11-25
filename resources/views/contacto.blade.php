@@ -17,14 +17,14 @@
     <hr class="lineahorizontal">
     <form action="contacto.html" method="POST">
 
-        <div>
+        <div class=email>
             <label for="email">Email</label>
             <div >
             <input type="email" id="email" name="email">
             </div>
         </div>
 
-        <div>
+        <div class=comentario>
             <label for="comentario">Comentarios</label>
             <div id="textarea">
             <textarea name="comentario" id="" cols="90" rows="5">                    
@@ -33,7 +33,7 @@
         </div> 
 
         <div>
-            <label for="comentario"></label>
+            
             <div>
             <button type="submit" class="btn btn-warning mb-2 boton-submit">Enviar Comentario</button>
             </div>

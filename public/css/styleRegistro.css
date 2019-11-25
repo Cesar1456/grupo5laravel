@@ -53,10 +53,17 @@ button.btn {
 }
 
 
+
+
+
+/****Phone****/
+
+
+
 @media (max-width:767px){
     button.boton-submit{
         
-        width: 70%;
+        width: 50%;
         background-color: rgb(248, 147, 31);
         border-radius: 20px;;
         -webkit-border-radius: 20px;
@@ -64,25 +71,58 @@ button.btn {
         -ms-border-radius: 20px;
         -o-border-radius: 20px;
         margin-top: 4vh;
+        margin-left: 25%;
     }
 
     button.btn {
         color: white;
-        font-family: "aller";
+        font-family: 'Comfortaa', cursive;
         font-size: 1.2em;
     }
-    .titulo{
-        margin-top: 2vh;
+    div.registro h1{
+        margin-top: -2vh;
     }
-    .mainperfil{
+    /* .mainperfil{
         width: 80%;
+    } */
+
+    div.form-group{
+        
+        height: 9vh;
+        padding: 0vh;
+        margin: 0;
     }
+    form.registro{
+
+        width: 100%;
+    }
+    form.registro label{
+
+        font-size: 1em;
+    }
+    div.col-sm-8 input{
+        height: 4vh;
+        width: 100%;
+        margin-top: -0.5vh;
+    }
+
+
+
+
     div.animation #particles-js{
         display: none;
     
     }
 
 }
+
+
+
+
+
+
+
+
 @media (max-width:991px) and (min-width:768px){
     button.boton-submit{
         

@@ -1,7 +1,4 @@
 
-.contenedor{
-    margin-bottom: 6.2vh;
-}
 h1.perfil{
     color: white;
     margin-left: 10%;
@@ -17,11 +14,15 @@ h1.perfil{
     width: 80%;
 }
 .central{
-    overflow: hidden;
+    
     width: 100%;
-    margin-top: 7vh;
+    margin-top: 13vh;
     height: 45vh;
     
+}
+.cuerpoperfil{
+    overflow: hidden;
+
 }
 
 .cuerpoperfil img{
@@ -40,6 +41,40 @@ h1.perfil{
     margin-left: 8%;
     margin-top: 10vh;
     font-family: 'Comfortaa', cursive;
+
+}
+
+@media (max-width:767px){
+
+.central{
+     margin-top: 14vh;
+     
+}
+
+.central img{
+    margin-left: 27%;
+    margin-top: 0vh;
+
+}
+.cuerpoperfil{
+
+    /* height: 1000vh; */
+    margin-top: 0vh;
+    
+   
+}
+
+
+.textoperfil{
+    height: 20vh;
+    margin-top: 3vh;
+    
+}
+
+.textoperfil h3{
+    font-size: 1.5em;
+}
+
 
 }
 

@@ -97,20 +97,36 @@ button.btn-primary:hover{
 
 
 @media (max-width:767px){
-    
 
-    
-    
-    .mainperfil{
-        width: 95%;
+    .ingreso h1{
+        margin-top: 3vh;
     }
-    div.form-group{
-        width: 95%;
 
+    form#ingreso {
+
+        width: 100%;
+        
+    }
+
+    div.form-group{
+        
+        width: 100%;
+       
+       
+        
+
+    }
+
+    div.col-sm-8 input{
+
+        width: 100%;
+        
+        margin-left: 10%;
     }
     button.btn{
         width: 50%;
-        margin-left: 10%;
+        margin-left: 25%;
+        margin-top: 4vh;
 
     }
     .mainperfil h1{

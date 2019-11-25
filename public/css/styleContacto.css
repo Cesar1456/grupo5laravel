@@ -38,7 +38,7 @@ form label{
 
 
 button.boton-submit{
-    margin-top: 0vh;
+    margin-top: 4vh;
     margin-left: 40%;
     color: #fff;
     width: 20%;
@@ -66,4 +66,35 @@ div#textarea{
     position: relative;
     margin-left: 22%;
     
+}
+
+/***Phone***/
+
+
+
+@media (max-width:767px){
+
+    form {
+
+        
+    }
+
+    div.email #email{
+
+        width: 60%;
+    }
+    div.comentario{
+        
+        padding-left: 0%;
+    }
+
+    div.comentario textarea{
+        margin-left: 0%;
+        width: 80%;
+    }
+
+    button.boton-submit{
+        width: 50%;
+        margin-left:25%
+    }
 }
