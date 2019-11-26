@@ -33,9 +33,8 @@ Route::get('/faq', 'faqController@listado');
 
 Route::get('/perfil', 'PerfilController@datos');
 
-Route::get('/carrito', function () {
-    return view('carrito');
-});
+Route::get('/carrito', 'CarritoController@mostrar');
+Route::get('/prueba', 'PruebaCarrito@ver');
 
 Route::get('/recuperar', function () {
     return view('recuperar');
