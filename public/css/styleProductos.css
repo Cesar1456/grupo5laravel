@@ -21,11 +21,6 @@ div.container-fluid {
 
 div.animation #particles-js{
     display: none;
-    width: 90%;
-	height: 180vh;
-	margin-left: 2%;
-	min-height: 300px;
-	position: absolute;
 }
 .photo{
   width: 100%;
