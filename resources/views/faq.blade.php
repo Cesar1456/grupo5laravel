@@ -5,12 +5,6 @@
           <link rel="stylesheet" href="css/styleFaq.css">
 
      </head>
-     
-     
-
-
-
-
      <section>
           <div class="animation">
                <div id="particles-js">
