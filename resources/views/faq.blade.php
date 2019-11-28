@@ -3,7 +3,6 @@
 
      <head>
           <link rel="stylesheet" href="css/styleFaq.css">
-
      </head>
      <section>
           <div class="animation">
@@ -11,7 +10,7 @@
                </div>
           </div>
           <div class="faq">
-               <h1 class="titulo">Preguntas Frecuentes</h1>
+               <h1 class="titulo">Preguntas Frecuentes?</h1>
                <hr class="lineahorizontal">
                <form action="#" method="POST">
                     <div class="FAQ">
@@ -36,6 +35,3 @@
 
      </section>
 @endsection
-
-
-
