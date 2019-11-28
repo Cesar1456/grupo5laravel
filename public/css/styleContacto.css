@@ -1,5 +1,6 @@
 .contacto{
     width: 100%;
+    margin-bottom: 8vh;
     
 }
 
@@ -32,11 +33,12 @@ form label{
     width: 80%;
     border-width: 1px;
     border-color: #FFF;
+    margin-top: 0vh;
 }
 
 
 button.boton-submit{
-    margin-top: 0vh;
+    margin-top: 4vh;
     margin-left: 40%;
     color: #fff;
     width: 20%;
@@ -64,4 +66,35 @@ div#textarea{
     position: relative;
     margin-left: 22%;
     
+}
+
+/***Phone***/
+
+
+
+@media (max-width:767px){
+
+    form {
+
+        
+    }
+
+    div.email #email{
+
+        width: 60%;
+    }
+    div.comentario{
+        
+        padding-left: 0%;
+    }
+
+    div.comentario textarea{
+        margin-left: 0%;
+        width: 80%;
+    }
+
+    button.boton-submit{
+        width: 50%;
+        margin-left:25%
+    }
 }

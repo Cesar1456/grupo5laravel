@@ -8,6 +8,7 @@
      <div id="particles-js">
      </div>
 </div>
+
 <h1 class="perfil">Perfil</h1>
 <hr class="lineahorizontal">
 <div class="central">
@@ -21,6 +22,7 @@
         </div>
     </div>
 </div>
+
 
 
 

@@ -32,6 +32,10 @@
                          <li id="faq">Lorem ipsum dolor sit amet consectetur adipiscing elit?</li>
                          <p>Lorem ipsum dolor sit amet consectetur adipiscing elit faucibus, ullamcorper integer gravida velit aliquam diam dictumst vivamus, eu nulla ornare habitasse nunc leo dui.</p>
                      </div>
+                     <div class="FAQ">
+                         <li id="faq">Lorem ipsum dolor sit amet consectetur adipiscing elit?</li>
+                         <p>Lorem ipsum dolor sit amet consectetur adipiscing elit faucibus, ullamcorper integer gravida velit aliquam diam dictumst vivamus, eu nulla ornare habitasse nunc leo dui.</p>
+                     </div>
                     
                     
                </form>

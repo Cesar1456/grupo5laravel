@@ -33,7 +33,7 @@
               </video>
             </article>
             <div class="enlace">
-                <a href="carrito.html">Agregar al Carrito</a>
+                <a href="carrito">Agregar al Carrito</a>
             </div>
             
             <div class="precio">
