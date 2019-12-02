@@ -7,6 +7,6 @@ use Illuminate\Http\Request;
 class IngresoController extends Controller
 {
     public function login(){
-        return view ("ingreso");
+        return view ("auth/login");
     }
 }

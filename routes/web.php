@@ -39,3 +39,7 @@ Route::get('/prueba', 'PruebaCarrito@ver');
 Route::get('/recuperar', function () {
     return view('recuperar');
 });
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
