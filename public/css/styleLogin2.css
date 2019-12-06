@@ -30,6 +30,15 @@ button.btn{
     font-size: 1em;
 
 }
+button.btn a{
+
+color: white;
+
+
+}
+
+
+
 div.form-group label{
     font-family: 'Comfortaa', cursive;
     font-size: 1em;

@@ -66,6 +66,9 @@
                                 <button type="submit" class="btn btn-primary">
                                     {{ __('Register') }}
                                 </button>
+                                <button type="submit" class="btn btn-primary">
+                                    <a href="home">Volver</a>
+                                </button>
                             </div>
                         </div>
                     </form>

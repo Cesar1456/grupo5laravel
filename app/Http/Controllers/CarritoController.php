@@ -10,10 +10,6 @@ class CarritoController extends Controller
      {
          $this->middleware('auth');
      }
-
-
-
-
     public function mostrar(){
         
         return view('carrito');
